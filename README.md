@@ -6,7 +6,7 @@ Terraform module to create an AWS EC2 instance with an attached Security Group.
 
 ```hcl
 module "ec2" {
-  source = "git::https://github.com/<your-org>/terraform-module-ec2.git?ref=v1.0.0"
+  source = "git::https://github.com/<vskalpana3-crtl>/terraform-module-ec2.git?ref=v1.0.0"
 
   instance_name = "myapp-dev-web-server-1"
   ami_id        = "ami-0c02fb55956c7d316"
